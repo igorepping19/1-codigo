@@ -3,7 +3,7 @@ body {
 }
 
 ul{
-    font-family: helvética;
+    font-family: helvetica; /* Corrigido de "helvética" para "helvetica" */
 }
 
 li {
@@ -25,7 +25,7 @@ li {
     --bg: var(--black);
     --fontColor: var(--green);
     --btnBg: var(--white);
-    --btnFontColor: var(--black)
+    --btnFontColor: var(--black); /* Adicionado ponto e vírgula */
 }
 
 :root {
@@ -50,9 +50,9 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    border: nome;
+    border: none; /* Corrigido de "nome" para "none" */
     color: var(--btnFontColor);
     background-color: var(--btnBg);
 }
 
-.btn:focus { outline-style: nome; }
+.btn:focus { outline-style: none; /* Corrigido de "nome" para "none" */ }
